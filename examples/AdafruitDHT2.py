@@ -32,7 +32,7 @@ def post_to_mcs(payload):
 	headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
 	not_connected = 1 
 	while (not_connected):
-		try:
+		try: 
 			conn = httplib.HTTPConnection("api.mediatek.com:80")
 			conn.connect() 
 			not_connected = 0 
