@@ -82,3 +82,4 @@ while 1:
 	else:
     		print('Failed to get reading. Try again!')
     		sys.exit(1)
+ 
